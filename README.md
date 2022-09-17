@@ -1,0 +1,2 @@
+# HTN 2022 Project
+Our project:  An app that allows people to set what course they're studying and where, so they can meet new people who also are studying the same course.  Not only does this application help people study, as studying together is proven to work better, but it also helps our users meet new people they have something in common with.
