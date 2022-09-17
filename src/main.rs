@@ -1,6 +1,8 @@
+#![feature(once_cell)]
 use actix_web::{HttpServer, App};
 
 mod routes;
+mod memstore;
 
 
 macro_rules! include_routes {
