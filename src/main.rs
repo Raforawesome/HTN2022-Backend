@@ -17,8 +17,9 @@ async fn main() -> std::io::Result<()> {
     HttpServer::new(|| {
         App::new()
             .service(routes::hello)
+            .service(routes::add_session)
     })
-    .bind(("127.0.0.1", 8761))?
+    .bind(("0.0.0.0", 8761))?
     .run()
     .await
 }
